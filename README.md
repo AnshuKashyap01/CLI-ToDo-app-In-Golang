@@ -32,8 +32,7 @@ A simple and efficient command-line Todo application built with Go. This project
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/cli-todo.git
-cd cli-todo
+git clone https://github.com/AnshuKashyap01/CLI-ToDo-app-In-Golang
 ```
 
 ### Build the Application
