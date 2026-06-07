@@ -10,10 +10,13 @@ package main
 func main() {
 
 	todos := Todos{}
-	todos.add("Buy Milk")
-	todos.add("Buy bread")
+	storage := NewStorage[Todos]("todos.json")
+	storage.Load(&todos)
+	cmdFlags:=NewCmdFlags()
+	cmdFlags.Execute(&todos)
 	//todos.add("Buy toast")
 	todos.print()
+	storage.save(todos)
 	
 	//fmt.Printf("%+v\n",todos) //+ will also add title,completed etc. in output
 
