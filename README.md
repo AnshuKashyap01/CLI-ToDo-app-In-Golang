@@ -76,9 +76,10 @@ Example:
 ```json
 [
   {
-    "id": 1,
-    "title": "Learn Go Generics",
-    "completed": false
+     "Title": "buy toast",
+    "Completed": false,
+    "CreatedAt": "2026-06-07T09:12:48.8238767+05:30",
+    "CompletedAt": null
   }
 ]
 ```
